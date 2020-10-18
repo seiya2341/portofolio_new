@@ -1,0 +1,258 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: serif;
+  line-height: 1.7;
+  color: #432;
+  margin: 0;
+}
+
+header {
+  background: url(../image/StockSnap_WYDHH84SZN.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.header-title {
+  text-align: center;
+  margin-top:30px;
+}
+
+.header-title > h1 {
+  font-size: 56px;
+}
+
+.header-title h2 {
+  font-size: 32px;
+  margin-right: 80px;
+}
+
+header nav {
+  height: 100px;
+  padding: 40px;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+header li {
+  margin-right:32px;
+  font-size: 24px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header a:hover {
+  opacity: 0.7;
+  border-bottom: 1px solid #fff;
+}
+
+.profile {
+  background: #fff;
+  padding: 20px 80px 80px 80px;
+}
+
+.profile h1 {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.profile-introduce {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-introduce img {
+  width: 200px;
+  margin-left: 80px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.profile-introduce p {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.skil {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px 80px 80px;
+  position: relative;
+}
+
+.skil h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.container1,
+.container2 {
+  background: #fff;
+  width: 600px;
+  padding: 20px;
+  margin: 80px 20px;
+}
+
+.skil-introduce {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.image2 {
+  position: absolute;
+  top: 290px;
+  left: 260px;
+}
+
+.skil-text {
+  margin-left: 20px;
+}
+
+.works {
+  background: #fff;
+  padding: 20px 80px 80px 80px;
+}
+
+.works h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.work1 > h2,
+.work1 > p {
+  color: #fff;
+  padding: 10px;
+}
+
+.work2 > h2,
+.work2 > p {
+  color: #fff;
+  padding: 10px;
+}
+
+.work3 > h2,
+.work3 > p {
+  color: #fff;
+  padding: 10px;
+}
+
+.works-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.work1,
+.work2 {
+  margin-top: 20px;
+  margin-right: 20px;
+  background: #432;
+}
+
+.work3 {
+  margin-top: 20px;
+  background: #432;
+}
+
+.work1:hover,
+.work2:hover,
+.work3:hover {
+  opacity: 0.9;
+}
+
+.works img {
+  width: 400px;
+}
+
+.contact {
+  background: #eee;
+  padding: 20px 80px 80px 80px;
+}
+
+.contact h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.contact-text a:hover{
+  opacity: 0.9;
+}
+
+.contact-text img:active {
+  transform: translateY(5px);
+}
+
+.small {
+  font-size: 20px;
+}
+
+.big {
+  margin-top: 20px;
+}
+
+footer {
+  background: #432;
+  height: 100px;
+  position: relative;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer li {
+  margin-top: 40px;
+  margin-right:32px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 0.9;
+  border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 820px;
+  }
+
+  .profile-introduce,
+  .skil,
+  .works-flex {
+    flex-direction: column;
+  }
+
+  .profile-introduce img {
+    margin: 0 auto;
+  }
+
+  .skil {
+    position: relative;
+  }
+  .image2 {
+    position: absolute;
+    top: 340px;
+    left: 160px;
+  }
+}
