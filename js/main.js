@@ -1,6 +1,7 @@
 'use strict';
 
 {
+//   スキルの部分の経過した勉強日数
   let n = Date.parse('2020/09/04');
   let m = new Date();
   let x = (m - n)/1000/60/60/24;
