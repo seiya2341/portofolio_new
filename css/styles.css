@@ -283,4 +283,12 @@ footer p {
     top: 340px;
     left: 160px;
   }
+  
+  .works img {
+    width: 625px;
+  }
+
+  .work4 img {
+    height: 200px;
+  }
 }
