@@ -148,6 +148,12 @@ header a:hover {
   padding: 10px;
 }
 
+.work4 > h2,
+.work4 > p {
+  color: #fff;
+  padding: 10px;
+}
+
 .works-flex {
   display: flex;
   justify-content: center;
@@ -167,7 +173,8 @@ header a:hover {
 
 .work1:hover,
 .work2:hover,
-.work3:hover {
+.work3:hover,
+.work4:hover{
   opacity: 0.9;
 }
 
